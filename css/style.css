@@ -240,13 +240,61 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
   
-    
-  }
-  
+#logo {
+  margin-left: 100px;
+} 
 
+nav {
+  margin-right: 100px;
+}
+
+.main-section {
+  width: 44%;
+  margin-left: 100px;
+}
+
+.auth-image {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.sidebar {
+  margin-right: 100px;
+}
+  
 }
 
 @media screen and (max-width: 768px) {
+
+
+#logo {
+  margin-left: 20px;
+}
+
+a {
+  margin-right: 20px;
+}
+
+.main-section {
+  margin-left: 20px;
+  width: 100%;
+  max-width: 700px;
+}
+
+.auth-image {
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+
+.sidebar {
+  width: 100%;
+  float: left;
+  max-width: 700px;
+  margin-left: 20px;
+}
+
+
 
 }
 
@@ -256,23 +304,47 @@ input[type=submit] {
   width: 100%;
 }
 
+
+
+body {
+  padding: 20px;
+  
+}
+
 nav {
   width: 100%;
   margin: 0 auto;
   display: block;
   text-align: center;
+  
 }
 
 p {
   display: block;
-  text-align: center;
+  text-align: left;
   clear: both;
   width: 100%;
+  
 }
 
 .auth-image {
   width: 100%;
+  display: block;
 }
   
+.sidebar {
+  width: 100%;
+  float: left;
+  max-width: 600px;
+  
+}
+
+.work {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 
 }
